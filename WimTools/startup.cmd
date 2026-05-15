@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions
 
-title WimTools Customer Restore
+title WimTools Restore
 
 set "ROOT=%~dp0"
 set "ROOT=%ROOT:~0,-1%"
@@ -10,7 +10,7 @@ set "WIM=%ROOT%\Recovery.wim"
 
 cls
 echo ==========================================
-echo  WimTools Customer Restore
+echo  WimTools Restore
 echo ==========================================
 echo.
 
